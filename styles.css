@@ -1,0 +1,16 @@
+.gallery {
+    background-color: aquamarine;
+    display: grid;
+    gap: 2rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(15rem, 1fr)
+    );
+}
+
+.card {
+    height: 100px;
+    width: 200px;
+    background-color: yellowgreen;
+}
