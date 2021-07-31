@@ -1,8 +1,8 @@
 .gallery {
     background-color: aquamarine;
     display: grid;
-    gap: 2rem;
-    grid-auto-rows: 22rem;
+    gap: 1rem;
+    grid-auto-rows: 10rem;
     grid-template-columns: repeat(
         auto-fill,
         minmax(15rem, 1fr)
